@@ -1,0 +1,27 @@
+{
+  "name": "@hschulz/get-primary-ip",
+  "version": "0.1.0",
+  "repository": "https://github.com/hschulz/get-primary-ip.git",
+  "description": "Determine the primary IP address of the current machine",
+  "keywords": [
+    "ip",
+    "address",
+    "network",
+    "interface",
+    "gateway",
+    "child_process",
+    "windows",
+    "linux"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hauke Schulz <hauke27@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.4.4"
+  }
+}
